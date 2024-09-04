@@ -1,0 +1,45 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+        .profile-info {
+            margin-bottom: 20px;
+        }
+        .profile-info label {
+            font-weight: bold;
+        }
+        .profile-info p {
+            margin: 5px 0;
+        }
+        .profile-info p span {
+            font-weight: normal;
+        }
+        .edit-profile-link {
+            text-align: center;
+        }
+        .edit-profile-link a {
+            color: #333;
+            text-decoration: none;
+            border: 1px solid #333;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        .edit-profile-link a:hover {
+            background-color: #333;
+            color: #fff;
+        }
